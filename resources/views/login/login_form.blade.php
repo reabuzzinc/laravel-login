@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ログインフォーム</title>
-    <link href="{{ asset('css/signin.css') }}" rel="stylesheet">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ログインフォーム</title>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<link href="{{ asset('css/signin.css') }}" rel="stylesheet">
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
 <form class="form-signin" method="POST" action="{{ route('login') }}">

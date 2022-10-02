@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Auth\AuthController;
 
-/*
+/* test
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
